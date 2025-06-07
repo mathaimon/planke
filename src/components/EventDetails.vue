@@ -53,7 +53,7 @@ const contestDetailModified = computed(() => {
 <template>
   <div class="w-full p-3 rounded-xl bg-secondary">
     <div class="flex items-center justify-between">
-      <h3 class="text-2xl font-medium tracking-wide">
+      <h3 class="min-w-0 text-2xl font-medium break-words">
         {{ contestDetailModified.title }}
       </h3>
       <!-- Chip -->
