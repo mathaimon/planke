@@ -102,7 +102,7 @@ const avatarUrl = computed(() => {
               v-if="userStore.isAdmin"
               class="w-full px-3 py-2 transition-colors duration-100 ease-in-out rounded-md hover:bg-sechover"
               :to="{ name: 'admin' }"
-              >Admin</RouterLink
+              >Admin Panel</RouterLink
             >
             <div
               v-if="userStore.isAuthenticated"
